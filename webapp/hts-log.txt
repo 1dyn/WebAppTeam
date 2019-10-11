@@ -1,0 +1,64 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 09 Oct 2019 23:20:32 at https://selab.hanyang.ac.kr/courses/cse326/2019/index.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://selab.hanyang.ac.kr/courses/cse326/2019/index.php -O1 "C:\Users\박재현\Desktop\web\webap" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:20:34	Warning: 	can not create directory to C:/Users/박재현/Desktop/web/webap/maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css.z
+23:20:40	Error: 	"Error when decompressing" (-1) at link https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css (from https://selab.hanyang.ac.kr/courses/cse326/2019/index.php)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/animated-overlay.gif (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_flat_75_ffffff_40x100.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_highlight-soft_75_cccccc_1x100.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_glass_75_e6e6e6_1x400.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_glass_75_dadada_1x400.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_glass_65_ffffff_1x400.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_glass_55_fbf9ee_1x400.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_glass_95_fef1ec_1x400.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-icons_222222_256x240.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-icons_888888_256x240.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-icons_454545_256x240.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-icons_2e83ff_256x240.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:25	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-icons_cd0a0a_256x240.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:26	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/common/styles/images/ui-bg_flat_0_aaaaaa_40x100.png (from https://selab.hanyang.ac.kr/common/styles/jquery-ui.css)
+23:21:31	Warning: 	Found for selab.hanyang.ac.kr/robots.txt
+23:21:31	Warning: 	Redirected link is identical because of 'URL Hack' option: selab.hanyang.ac.kr/robots.txt and https://selab.hanyang.ac.kr/robots.txt
+23:21:31	Warning: 	Warning moved treated for selab.hanyang.ac.kr/robots.txt (real one is https://selab.hanyang.ac.kr/robots.txt)
+23:21:31	Warning: 	Found for selab.hanyang.ac.kr/courses/cse326/2019/project/
+23:21:31	Warning: 	Redirected link is identical because of 'URL Hack' option: selab.hanyang.ac.kr/courses/cse326/2019/project/ and https://selab.hanyang.ac.kr/courses/cse326/2019/project/
+23:21:31	Warning: 	File has moved from selab.hanyang.ac.kr/courses/cse326/2019/project/ to https://selab.hanyang.ac.kr/courses/cse326/2019/project/
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/html.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/js.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/css.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/xml.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/php.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/sql.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:37	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/output.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/html.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/js.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/css.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/xml.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/php.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/sql.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/output.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/print.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/correct.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/labs-slides.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/incorrect.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/labs-slides.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/labResources/layout.css (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/labResources/ScottsFav.html)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/thumbs-down.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/json.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:41	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/jsp.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/python.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/ruby.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/svg.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/project/images/yaml.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/project/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/thumbs-down.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/json.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/jsp.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/python.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/ruby.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/svg.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+23:21:42	Error: 	"Not Found" (404) at link https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/yaml.gif (from https://selab.hanyang.ac.kr/courses/cse326/2019/labs/ui/default/pretty.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 10 seconds : 234 links scanned, 185 files written (17121344 bytes overall) [17221372 bytes received at 246019 bytes/sec], 19747 bytes transferred using HTTP compression in 1 files, ratio 100%, 12.3 requests per connection
+(46 errors, 7 warnings, 0 messages)
