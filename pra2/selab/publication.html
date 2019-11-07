@@ -7,6 +7,27 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/publication.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+        //카테고리 버튼 컨트롤러
+        var bDisplay = true;
+        function doDisplay(category){
+            var con = document.getElementById(category);
+            con.style.display = "block";//해당 id를 가진 div 보이기
+            var categories = ["all", "inter-conf", "inter-jour", "dom-conf", "dom-jour"];
+            for (let i = 0; i < categories.length; i++) {//나머지 모든 div의 내용 숨기기
+                if (categories[i]===category) {
+                    continue;
+                }
+                else{
+                    con = document.getElementById(categories[i]);
+                    con.style.display = "none";
+                }
+            }
+        }
+        // 출처: https://mainia.tistory.com/2710 [녹두장군 - 상상을 현실로]
+        </script>
     </head>
     <body>
         <style type="text/css">
@@ -56,16 +77,34 @@
                 </div>
             </div>
         </nav>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="js/bootstrap.js"></script>
         <h1 style="text-align: left;; font-size: 50px; font-weight: bold; color: cornflowerblue">PUBLICATION</h1><hr>
-        <br>
-        <button class="buttonpub" style="vertical-align:middle"><span>All</span></button><br>
-        <button class="buttonpub" style="vertical-align:middle"><span>International Conference</span></button><br>
-        <button class="buttonpub" style="vertical-align:middle"><span>International Journal</span></button><br>
-        <button class="buttonpub" style="vertical-align:middle"><span>Domestic Conference</span></button><br>
-        <button class="buttonpub" style="vertical-align:middle"><span>Domestic Journal</span></button>
-        
+        <div class="category" style="float:left; padding-right: 20pt; background-color: antiquewhite;">
+            <br>
+            <!-- 각 버튼을 누르면 해당 버튼이 표시할 div의 id과 head태그에 정의해 놓은 doDisplay를 이용하여 89-105번 줄 내 display의 스타일을 임의 조정한다.  -->
+            <a href='javascript:doDisplay("all");'><button class="buttonpub" style="vertical-align:middle"><span>All</span></button><br></a>
+            <a href='javascript:doDisplay("inter-conf");'><button class="buttonpub" style="vertical-align:middle"><span>International Conference</span></button><br></a>
+            <a href='javascript:doDisplay("inter-jour");'><button class="buttonpub" style="vertical-align:middle"><span>International Journal</span></button><br></a>
+            <a href='javascript:doDisplay("dom-conf");'><button class="buttonpub" style="vertical-align:middle"><span>Domestic Conference</span></button><br></a>
+            <a href='javascript:doDisplay("dom-jour");'><button class="buttonpub" style="vertical-align:middle"><span>Domestic Journal</span></button></a>
+        </div>
+        <div class="article" style="padding-left: 40pt; background-color:skyblue;">
+            <div id="all" style="display: block">
+                <h2>All</h2>
+            </div>
+            <div id="inter-conf" style="display: none">
+                <h2>International Conference</h2>
+            </div>
+            <div id="inter-jour" style="display: none">
+                <h2>International Journal</h2>
+            </div>
+            <div id="dom-conf" style="display: none">
+                <h2>Domestic Conference</h2>
+            </div>
+            <div id="dom-jour" style="display: none">
+                <h2>Domestic Journal</h2>
+            </div>
+        </div>
+            
 
     </body>
 </html>
