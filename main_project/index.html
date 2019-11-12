@@ -9,11 +9,12 @@
         <style>
           .banner{
             text-align: center;
+            margin-top: 30px;
           }
           #banner{
             display: inline-block;
             width: 1145px;
-            height: 400px;
+            height: auto;
           }
           .slick-prev {
             z-index: 2;
@@ -22,46 +23,94 @@
           .slick-next {
             right:10px;
           }
+          .main_content{
+            display: table;
+            background: beige;
+          }
+          .main_content_inner{
+            display: table-cell;
+          }
+          .notice{
+            left: 12.5%;
+            display: inline-block;
+            position: absolute;
+          } 
+          .course{
+            right: 37.5%;
+            display: inline-block;
+            position: absolute;
+          }
+          .top_header{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+          }
+          .top_inner{
+            display: inline-block;
+            width: 1145px;
+            text-align: center;
+            padding-top: 40px;
+            /* vertical-align: middle; */
+          }
+          .Logo{
+            float: left;
+          }
+          .menu-container{
+            float: right;      
+          }
+          a:hover{color:#ff0000;} 
+          ul{
+            padding-top: 20px;
+            list-style: none;
+          }
+          li{
+            display: inline-block;
+            padding: 0 10px;
+          }
         </style>
     </head>
     <body>
-      <div id="top_header">
-        <div class="topmenu">
-          <div class="Logo_clearfix">
-            <div class="Logo">
-              <a href="index.html">
-                <img src="./img/selab_logo_S.png">
-              </a>
-            </div>
+      <div class="top_header">
+        <div class="top_inner">
+          <div class="Logo">
+            <a href="index.html">
+              <img src="img/selab_logo_S.png" width="200px" height="auto">
+            </a>
           </div>
-        </div>
-        <div class="menu-container">
-          <div class="nav-area">
-            <div class="depth_area">
-              <div class="nav-ContentWidth">
-                <div class="left-area">
-                  <ul class="nav-list">
-                    <li><a class="sub" href="notice.html">NOTICE</a></li>
-                    <li><a class="sub" href="members.html">MEMBERS</a></li>
-                    <li><a class="sub" href="research.html">RESEARCH</a></li>
-                    <li><a class="sub" href="publication.html">PUBLICATION</a></li>
-                    <li><a class="sub" href="course.html">COURSE</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <div class="menu-container">
+            <ul class="nav-list">
+              <li><a class="sub" href="notice.html">NOTICE</a></li>
+              <li><a class="sub" href="members.html">MEMBERS</a></li>
+              <li><a class="sub" href="research.html">RESEARCH</a></li>
+              <li><a class="sub" href="publication.html">PUBLICATION</a></li>
+              <li><a class="sub" href="course.html">COURSE</a></li>
+              <li>|</li>
+              <li><a class="sub" href="login.html">Login</a></li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="banner">
         <div id="banner">
-          <div><img src="./img/1.png"></div>
-          <div><img src="./img/2.png"></div>
-          <div><img src="./img/3.png"></div>
+          <div><img src="img/1.png"></div>
+          <div><img src="img/2.png"></div>
+          <div><img src="img/3.png"></div>
         </div>
       </div>
-      <br>
-      <hr width="1200px" color="darkgray">
+      <br><br>
+      <hr width="1200px" color="lightgray">
+      <div class="main_content">
+        <div class="main_content_inner">
+        <div class="notice">
+          <h2>NOTICE</h2>
+          <div class="notice_content">notice</div>
+        </div>
+        <div class="course">
+          <h2>COURSE</h2>
+          <div class="course_content">course</div>
+        </div>
+        </div>
+      </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <script type="text/javascript" src="slick/slick.min.js"></script>
