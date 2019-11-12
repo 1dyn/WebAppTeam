@@ -1,0 +1,63 @@
+  #re_img {
+    border: 3px solid skyblue;
+    border-radius: 100%;
+}
+
+h1 {
+    color: skyblue;
+    font-size: 80px;
+    clear: both;
+    overflow: hidden;
+}
+
+h3, ul{
+    color: gray;
+}
+
+ul {
+    list-style-type: square;
+    color: black;
+    font-weight: 200;
+
+}
+
+div#re1 {
+    position: absolute;
+    left: 33%;
+    top: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+
+div#re2 {
+    position: absolute;
+    right: 30%;
+    top: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+
+div#re3 {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+div#re4 {
+ position: absolute;
+ left: 40%;
+ top: 24%;
+ overflow: hidden;
+ text-align: center;
+}
+
+div#re5 {
+    position: absolute;
+    right: 27%;
+    top: 50%;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+}
