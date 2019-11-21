@@ -6,8 +6,6 @@
         <title>seleab</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/common.css">
-    </head>
-    <body>
         <style type="text/css">
             .jumbotron{
                 background-image: url('img/yh.jpeg');
@@ -47,7 +45,9 @@
             .item span {
             font-style: normal;
             }
-</style>
+        </style>
+    </head>
+    <body>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -87,48 +87,54 @@
                 </div>
             </div>
         </nav>
-        <div>
-          <div class="container">
-            <!--left controls-->
-            <div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-            </div>
-            <div>
-                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <div class="article">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="0" class="active">
+                            ::before
+                            ::after
+                        </li>
+                        <li data-target="#myCarousel" data-slide-to="1">
+                            ::before
+                            ::after
+                        </li>
+                        <li data-target="#myCarousel" data-slide-to="2">
+                            ::before
+                            ::after
+                        </li>
                     </ol>
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                      <div class="item active">
-                        <img src="./img/1.png" alt="SELab"/>
-                      </div>
-                      <div class="item">
-                        <img src="./img/2.png" alt="Web & Web Security"/>
-                      </div>
-                      <div class="item">
-                        <img src="./img/3.png" alt="The Real-Time Software Engineering"/>
-                      </div>
+                        <div class="item active">
+                            <img src="./img/1.png" alt="SELab"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/2.png" alt="Web & Web Security"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/3.png" alt="The Real-Time Software Engineering"/>
+                        </div>
+                    </div>
+                    <!--left controls-->
+                    <div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </div>
+                    <!--right controls-->
+                    <div>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <!--right controls-->
-            <div>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
+            <hr>
+            <div class="row">
                 <div class="col-md-4">
                     <h4>11월 1일차 미팅</h4>
                     <p>부트스트랩 라이센스, 코드분석, 참고자료 이거 안 해올 시 커피 한 잔 !</p>
@@ -144,27 +150,28 @@
                     <p>Q&A, chatting, 팀별공간, 알린, 북마크</p>
                     <p><a class="btn btn-default" data-target="#modal3" data-toggle="modal">자세히 알아보기</a></p>
                 </div>
-                <hr>
             </div>
-        <div class="row">
-            <div class="modal" id="modal" tabindex="-1">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            이거 안 해오면 진짜 커피 사오기..
-                            <button class="close" data-miss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body" style="text-align: center;">
-                            아 근데 이거 이렇게 옮기면 꽤 빨리 끝낼 수 있긴 할 거 같은데<br>
-                            아직 11월 초고... <br>
-                            룰라랄라<br><br>
-                            <img src="img/yr.jpeg" id="imagepreview" style="width: 256px; height: 256px;">
+            <hr>
+            <div class="row">
+                <div class="modal" id="modal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                이거 안 해오면 진짜 커피 사오기..
+                                <button class="close" data-miss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body" style="text-align: center;">
+                                아 근데 이거 이렇게 옮기면 꽤 빨리 끝낼 수 있긴 할 거 같은데<br>
+                                아직 11월 초고... <br>
+                                룰라랄라<br><br>
+                                <img src="img/yr.jpeg" id="imagepreview" style="width: 256px; height: 256px;">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        </div>
     </body>
 </html>
