@@ -6,10 +6,29 @@
     width: 37vw;
     height: 100vh;
     margin: auto;
-    padding-top: 120pt;
+    padding-top: 20pt;
     display: block;
     padding: auto;
 }
+.loginbutton{
+    font-size: 20pt;
+    text-align: right;
+    margin-bottom: 70pt;
+    margin-right: 30pt;
+}
+.loginbutton a:link,
+.loginbutton a:visited{
+    text-decoration-line: none;
+    color: azure;
+    border: 2pt white solid;
+    padding: 3pt;
+    padding-top: 1pt;
+    padding-bottom: 1pt;
+}
+.loginbutton a:hover{
+    opacity: 0.5;
+}
+
 .logo{
     transform: scale(1.3);
     margin-left: 205pt;
