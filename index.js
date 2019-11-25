@@ -55,7 +55,7 @@ app.post('/', function(req, res){
   var id = req.body.id;
   var pwd = req.body.pw;
 
-  var sql = `SELECT * FROM user WHERE id = ?`;
+  var sql = `SELECT * FROM login WHERE id = ?`;
   connection.query(sql, [id], function(error, results, fields){
     if(results.length == 0){
       res.render('login.html');
@@ -88,7 +88,7 @@ app.post('/sign_up', function(req, res){
   if(pw == con_pw){
 
     //DB에 쿼리 알리기
-    var sql = `INSERT INTO user VALUES(?, ?, ?, ?)`;
+    var sql = `INSERT INTO login VALUES(?, ?, ?, ?)`;
 		connection.query(sql,[name, id, pw, con_pw], function(error, results, fields){
       console.log(error);
 		});
