@@ -20,10 +20,10 @@ var mysql = require('mysql');
 // connection 객체 생성
 var connection = mysql.createConnection({
   // DB 연결 설정
-  host: 'dbteam.cgkc5bv4txxd.us-east-1.rds.amazonaws.com',
-  user : 'root',
-  password: '12121212',
-  database: 'setest'
+  host: 'webappteam.cgkc5bv4txxd.us-east-1.rds.amazonaws.com',
+  user : 'hdy',
+  password: 'han5014917',
+  database: 'selab'
 });
 connection.connect(function (err) {
   if (err) {
